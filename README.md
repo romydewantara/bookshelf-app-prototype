@@ -1,1 +1,1 @@
-# Bookshelf App Starter Project
+# Bookshelf App Prototype
