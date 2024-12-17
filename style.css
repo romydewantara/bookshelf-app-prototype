@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+  font-family: Rubik, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+header {
+  background-color: #05445E;
+  color: white;
+}
+
+h2 {
+  color: #05445E;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-color: #75E6DA;
+  margin-top: 18px;
+  width: 100%;
+}
+
+.wrapper .container {
+  border-radius: 8px;
+  margin-top: 20px;
+  background: #F8F9FA;
+  padding: 24px 12px;
+  flex-grow: 1;
+  border-radius: 16px;
+  border-width: 2px;
+  border-color: #75E6DA;
+  width: 700px;
+  height: fit-content;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+  margin-left: 15px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.form {
+  display: flex;
+  padding: 24px 12px;
+  flex-direction: column;
+  height: fit-content;
+  width: 700px;
+  align-items: center;
+  flex-grow: 1;
+  border-radius: 16px;
+  border-color: #75E6DA;
+}
+
+.shadow {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-title {
+  margin: auto 0;
+}
+
+.form-group label {
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #05445E;
+}
+
+input[type=text], input[type=number] {
+  background: #D4F1F4;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #75E6DA;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+}
+
+.custom-search-input {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.button-submit {
+  width: fit-content;
+  background-color: #75E6DA; /* Tale */
+  border: none;
+  border-radius: 20px;
+  color: #05445E;
+  padding: 12px 32px;
+  margin-top: 20px;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: #05445E; /* NavyBlue */
+  color: white;
+}
+
+.button-search {
+  width: fit-content;
+  background-color: #75E6DA; /* Tale */
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  color: #05445E;
+  padding: 8px 22px;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-search:hover {
+  background-color: #05445E; /* NavyBlue */
+  color: white;
+}
+
+/* book item */
+.container-book {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: solid;
+  border-color: #C6B79B;
+}
+
+.container-background {
+  background-color: #75E6DA;
+}
+
+.button-item {
+  width: fit-content;
+  background-color: #75E6DA; /* Tale */
+  border: none;
+  border-radius: 20px;
+  color: #05445E;
+  padding: 8px 22px;
+  margin-top: 6px;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .wrapper .container {
+    width: 100%;
+  }
+
+  .list-item {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
